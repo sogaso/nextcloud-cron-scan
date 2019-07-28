@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-php -f /var/www/html/cron.php
+php /var/www/html/occ files:scan "$SCAN_PATH" --all
